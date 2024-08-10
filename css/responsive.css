@@ -1,0 +1,152 @@
+@media (max-width: 992px) {
+
+    :root {
+
+        /*========== Font and typography ==========*/
+        --hero-heading: 55px;
+        --section-title-font: 35px;
+        --section-subtitle-font: 20px;
+        --hero-text: 20px;
+        --small-text: 16px;
+        --medium-text: 19px;
+        --large-text: 23px;
+        --extra-large-text: 23px;
+    }
+
+    /*=============== REUSABLE CSS CLASSES ===============*/
+    .navbar {
+        padding: 1rem 1rem;
+    }
+
+    .section {
+        padding: 5rem 4rem;
+    }
+    .section__subtitle {
+        width: 80%;
+    }
+
+
+
+    /* ----------------- Hero ------------------- */
+    .hero__data_wrapper {
+        width: 75%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    :root {
+
+        /*========== Font and typography ==========*/
+        --hero-heading: 50px;
+        --section-title-font: 30px;
+        --section-subtitle-font: 18px;
+        --hero-text: 20px;
+        --small-text: 16px;
+        --medium-text: 19px;
+        --large-text: 23px;
+        --extra-large-text: 23px;
+    }
+
+
+    /*=============== REUSABLE CSS CLASSES ===============*/
+    .navbar {
+        padding: 1rem 2rem;
+    }
+
+    .section {
+        padding: 4rem 3rem;
+    }
+    .section__subtitle {
+        width: 100%;
+    }
+
+    /* ----------------- Navbar ------------------- */
+
+    .navbar-collapse{
+        width: min-content !important;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        padding: 1rem 1rem;
+        background-color: var(--primary-color);
+    }
+
+
+
+
+    /* ----------------- Hero ------------------- */
+    .hero__dekstop_video{
+        display: none;
+    }
+    .hero__mobile_video{
+        display: block;
+    }
+    .hero__data_section {
+        min-height: 80vh;
+    }
+
+    .hero__data_wrapper {
+        width: 85%;
+    }
+
+    .hero__btn_wrapper {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .hero__btn {
+        padding: 10px 80px;
+    }
+
+
+
+    /* ------------------trainer section ----------------- */
+    .trainer__img{
+        width: 100%;
+    }
+
+
+
+}
+
+
+@media (max-width: 576px) {
+
+    :root {
+
+        /*========== Font and typography ==========*/
+        --hero-heading: 40px;
+        --section-title-font: 30px;
+        --section-subtitle-font: 16px;
+        --hero-text: 18px;
+        --small-text: 16px;
+        --medium-text: 19px;
+        --large-text: 23px;
+        --extra-large-text: 23px;
+    }
+
+
+    /*=============== REUSABLE CSS CLASSES ===============*/
+
+    .navbar {
+        padding: .8rem .2rem;
+    }
+
+    .section {
+        padding: 3rem 2rem;
+    }
+
+
+
+
+
+
+    /* ----------------- Hero ------------------- */
+    .hero__data_wrapper {
+        width: 90%;
+    }
+
+
+}
